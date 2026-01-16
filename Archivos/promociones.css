@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+}
+
+#cuenta{
+    background-color: #008CBA;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#header{
+    background-color: #146b88; 
+    height: 80px;
+    width: 1120px;
+}
+
+#nav{
+    background-color: white; 
+    height: 140px;
+    width: 1120px;
+}
+
+#yt, #fb, #ig, #in, #tt{
+    position: relative;
+    bottom: 70px;
+    left: 390px;
+    cursor: pointer;
+}
+
+#buscar{
+    position: relative;
+    bottom: 70px;
+    left: 365px;
+    cursor: pointer;
+}
+
+#txt{
+    position: relative;
+    bottom: 67px;
+    left: 400px;
+    border-radius: 10px;
+    border: 3px solid rgb(88, 138, 208);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    position: relative;
+    left: 285px;
+    bottom: 60px;
+}
+
+#cuenta{
+    position: relative;
+    bottom: 60px;
+    left: 290px;
+}
+
+#bandera{
+    position: relative;
+    bottom: 60px;
+    left: 300px;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    background-color: #008CBA;
+    border-radius: 10px;
+    border: none;
+}
+
+#IE, #empresas, #Tiendas, #Consultas{
+    border-radius: 50%;
+}
+
+#empresas{
+    position: relative;
+    left: 275px;
+    bottom: 105px;
+}
+
+#Tiendas{
+    position: relative;
+    left: 410px;
+    bottom: 195px;
+}
+
+#Consultas{
+    position: relative;
+    left: 580px;
+    bottom: 295px;
+}
+
+#ie{
+    position: relative;
+    bottom: 45px;
+    left: 60px;
+}
+
+#Empresas{
+    position: relative;
+    bottom: 145px;
+    left: 330px;
+}
+
+#tiendas{
+    position: relative;
+    bottom: 235px;
+    left: 470px;
+}
+
+#consultas{
+    position: relative;
+    bottom: 342px;
+    left: 640px;
+}
+
+#ie, #Empresas, #tiendas, #consultas{
+    color: white;
+    font-weight: bold;
+}
+
+#IE, #empresas, #Tiendas, #Consultas, #ie, #Empresas, #tiendas, #consultas{
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#capicua{
+    margin-top: 270px;
+    width: 50%;
+}
