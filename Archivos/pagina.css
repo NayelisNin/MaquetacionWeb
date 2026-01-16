@@ -1,0 +1,310 @@
+body{
+    background-color: #da4b4b;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+}
+
+#cuenta{
+    background-color: #008CBA;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#socio{
+    background-color: #008CBA; 
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#header{
+    background-color: #146b88; 
+    height: 80px;
+    width: 1120px;
+}
+
+#nav{
+    background-color: white; 
+    height: 140px;
+    width: 1120px;
+}
+
+#yt, #fb, #ig, #in, #tt{
+    position: relative;
+    bottom: 70px;
+    left: 390px;
+    cursor: pointer;
+}
+
+#buscar{
+    position: relative;
+    bottom: 70px;
+    left: 365px;
+    cursor: pointer;
+}
+
+#txt{
+    position: relative;
+    bottom: 67px;
+    left: 400px;
+    border-radius: 10px;
+    border: 3px solid rgb(88, 138, 208);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    position: relative;
+    left: 285px;
+    bottom: 60px;
+}
+
+#cuenta{
+    position: relative;
+    bottom: 60px;
+    left: 290px;
+}
+
+#bandera{
+    position: relative;
+    bottom: 60px;
+    left: 300px;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    background-color: #008CBA;
+    border-radius: 10px;
+    border: none;
+}
+
+#IE, #empresas, #Tiendas, #Consultas{
+    border-radius: 50%;
+}
+
+#empresas{
+    position: relative;
+    left: 275px;
+    bottom: 105px;
+}
+
+#Tiendas{
+    position: relative;
+    left: 410px;
+    bottom: 195px;
+}
+
+#Consultas{
+    position: relative;
+    left: 580px;
+    bottom: 295px;
+}
+
+#ie{
+    position: relative;
+    bottom: 45px;
+    left: 60px;
+}
+
+#Empresas{
+    position: relative;
+    bottom: 145px;
+    left: 330px;
+}
+
+#tiendas{
+    position: relative;
+    bottom: 235px;
+    left: 470px;
+}
+
+#consultas{
+    position: relative;
+    bottom: 342px;
+    left: 640px;
+}
+
+#ie, #Empresas, #tiendas, #consultas{
+    color: white;
+    font-weight: bold;
+}
+
+#IE, #empresas, #Tiendas, #Consultas, #ie, #Empresas, #tiendas, #consultas{
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#socio{
+    position: relative;
+    left: 960px;
+    bottom: 390px;
+    cursor: pointer;
+}
+
+h1{
+    position: relative;
+    bottom: 390px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3{
+    position: relative;
+    bottom: 425px;
+    left: 250px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#socioGratis{
+    position: relative;
+    bottom: 410px;
+    left: 415px;
+    background-color: orange; 
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#desc{
+    background-color: #eceded; 
+    height: 100px;
+    width: 1120px;
+    position: relative;
+    bottom: 435px;
+}
+
+#anios, #oficinas{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#clientes, #ciudades{
+    position: relative;
+    left: 750px;
+    bottom: 75px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#encontrar{
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#rastreo{
+    position: relative;
+    bottom: 420px;
+    left: 305px;
+    border-radius: 10px;
+    border: solid 1px #146b88;
+    color: white;
+    padding-top: 15px;    font-size: 16px;
+    cursor: pointer;
+    width: 455px;
+    height: 30px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#rastrear{
+    position: relative;
+    bottom: 439px;
+    left: 190px;
+    background-color: #146b88; 
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#aduanas{
+    width: 550px;
+    border: solid #146b88 2px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 420px;
+    left: 270px;
+    text-align: center;
+}
+
+#registrar{
+    background-color: #146b88; 
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+}
+
+#enlaces{
+    position: relative;
+    top: 300px;
+    left: 350px;
+}
+
+#imagen{
+    position: relative;
+    bottom: 350px;
+    left: 160px;
+}
+
+#promo{
+    position: relative;
+    bottom: 360px;
+    font-size: 50px;
+    background-color: #146b88;
+    width: 1120px;
+    left: 0px;
+}
+
+@media (min-width: 600px){
+    #promo h1{
+        width: 100%;
+    }
+}

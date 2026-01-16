@@ -1,0 +1,12 @@
+body {
+    background: radial-gradient(blue, white, rgb(110, 170, 249));
+}
+
+img {
+    width: 50px;
+    height: 60px;
+}
+
+p{
+    color: blue;
+}
