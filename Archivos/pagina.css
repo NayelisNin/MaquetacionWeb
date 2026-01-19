@@ -1,190 +1,232 @@
+:root{
+    --dark-blue: #00577d;
+    --blue: #008aad;
+    --yellow: #ffa409;
+    --white: #ffffff;
+    --green: #8cb537;
+    --black: #333;
+    --light-blue: #2fbfbc;
+    --purple: #542583;
+    --green: #76bd1d;
+    --pink: #c211a2;
+    --orange: #ff7230;
+    --blue2: #186893;
+    --morado: #552684;
+    --wp--preset--font-size--small: 13px;
+    --wp--preset--font-size--medium: 20px;
+    --wp--preset--font-size--large: 36px;
+    --wp--preset--font-size--x-large: 42px;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: #da4b4b;
     padding: 0;
     margin: 0;
+    font-family: Gotham, sans-serif;
+        font-weight: 500;
+    line-height: 1.5em;
+    background-image: url(https://www.eps.com.do/wp-content/themes/eps/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header{
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
+#logo{
+    position: relative;
+    top: 70px;
+    right: 430px;
+}
+
 
 #cuenta{
-    background-color: #008CBA;
+    background-color: var(--blue);
     border-radius: 40px;
     border: none;
-    color: white;
+    color: var(--white);
     padding: 10px 24px;
     text-align: center;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
+    position: relative;
+    bottom: 60px;
+    left: 510px;
 }
+
 
 #socio{
-    background-color: #008CBA; 
+    background-color: var(--yellow); 
     border-radius: 40px;
     border: none;
-    color: white;
+    color: var(--white);
     padding: 10px 24px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    position: relative;
+    left: 1350px;
+    bottom: 425px;
 }
+
 
 #header{
-    background-color: #146b88; 
+    background-color: var(--dark-blue); 
     height: 80px;
-    width: 1525px;
+    width: 1521px;
 }
 
+
 #nav{
-    background-color: white; 
+    background-color: var(--white); 
     height: 140px;
-    width: 1525px;
+    width: 1521px;
 }
+
 
 #yt, #fb, #ig, #in, #tt{
     position: relative;
     bottom: 70px;
-    left: 390px;
+    left: 690px;
     cursor: pointer;
 }
-
 #buscar{
     position: relative;
-    bottom: 70px;
-    left: 365px;
+    bottom: 76px;
+    left: 678px;
     cursor: pointer;
 }
-
 #txt{
     position: relative;
     bottom: 67px;
-    left: 400px;
+    left: 710px;
     border-radius: 10px;
-    border: 3px solid rgb(88, 138, 208);
+    border: 3px solid var(--blue);
 }
+
 
 a{
     text-decoration: none;
-    color: black;
+    color: var(--dark-blue);
     font-weight: bold;
     margin-left: 20px;
     position: relative;
-    left: 285px;
+    left: 500px;
     bottom: 60px;
+    font-size: 18px;
+}
+a:hover{
+    color: var(--blue);
 }
 
-#cuenta{
-    position: relative;
-    bottom: 60px;
-    left: 290px;
-}
 
 #bandera{
     position: relative;
     bottom: 60px;
-    left: 300px;
+    left: 505px;
     cursor: pointer;
     width: 50px;
     height: 30px;
-    background-color: #008CBA;
+    background-color: var(--white);
     border-radius: 10px;
     border: none;
 }
 
-#IE, #empresas, #Tiendas, #Consultas{
-    border-radius: 50%;
-}
 
+#IE, #empresas, #Tiendas, #Consultas{
+    border-radius: 50%; 
+}
+#IE{
+    position: relative;
+    left: 80px;
+}
 #empresas{
     position: relative;
-    left: 275px;
-    bottom: 105px;
+    left: 380px;
+    bottom: 110px;
 }
-
 #Tiendas{
     position: relative;
-    left: 410px;
-    bottom: 195px;
+    left: 540px;
+    bottom: 220px;
 }
-
 #Consultas{
     position: relative;
-    left: 580px;
-    bottom: 295px;
+    left: 735px;
+    bottom: 330px;
 }
 
 #ie{
     position: relative;
     bottom: 45px;
-    left: 60px;
+    left: 140px;
 }
-
 #Empresas{
     position: relative;
-    bottom: 145px;
-    left: 330px;
+    bottom: 155px;
+    left: 440px;
 }
-
 #tiendas{
     position: relative;
-    bottom: 235px;
-    left: 470px;
+    bottom: 265px;
+    left: 600px;
 }
-
 #consultas{
     position: relative;
-    bottom: 342px;
-    left: 640px;
+    bottom: 375px;
+    left: 795px;
 }
 
+
 #ie, #Empresas, #tiendas, #consultas{
-    color: white;
+    color: var(--white);
     font-weight: bold;
+    position: relative;
 }
+
 
 #IE, #empresas, #Tiendas, #Consultas, #ie, #Empresas, #tiendas, #consultas{
     margin-top: 10px;
     cursor: pointer;
-    margin-left: 20px;
 }
 
-#socio{
-    position: relative;
-    left: 960px;
-    bottom: 390px;
-    cursor: pointer;
-}
 
 h1{
     position: relative;
     bottom: 450px;
-    color: white;
+    color: var(--white);
     font-size: 50px;
     text-align: center;
     font-weight: bold;
+    z-index: 1;
 }
-
 h3{
     position: relative;
     bottom: 475px;
-    left: 250px;
-    color: white;
+    left: 10px;
+    color: var(--white);
     font-size: 25px;
     text-align: center;
     font-weight: bold;
+    z-index: 1;
 }
-
 #socioGratis{
     position: relative;
-    bottom: 295px;
-    background-color: orange; 
+    bottom: 430px;
+    left: 600px;
+    background-color: var(--yellow); 
     border-radius: 40px;
     border: none;
-    color: white;
+    color: var(--white);
     padding: 10px 24px;
     text-align: center;
     font-size: 25px;
@@ -194,92 +236,103 @@ h3{
     z-index: 1;
 }
 
+
+#camion{
+    background-color:  #073b52db;
+    position: relative;
+    bottom: 850px;
+    height: 622px;
+}
+
+
 #desc{
     background-color: #eceded; 
     height: 100px;
-    width: 1525px;
+    width: 1521px;
     position: relative;
-    bottom: 320px;
+    bottom: 850px;
+    color: var(--dark-blue);
+    font-weight: bold;
+    font-size: 20px;
 }
+
 
 #anios, #oficinas{
     position: relative;
     left: 50px;
     top: 10px;
-    font-weight: bold;
     font-size: 20px;
 }
-
 #clientes, #ciudades{
     position: relative;
     left: 750px;
-    bottom: 75px;
-    font-weight: bold;
+    bottom: 55px;
     font-size: 20px;
 }
 
+
 #rua{
     height: 300px;
-    margin-top: 150px;
+    position: relative;
+    bottom: 300px;
 }
-
 #encontrar{
     position: relative;
     bottom: 405px;
     left: 345px;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 19px;
+    color: var(--dark-blue);
 }
-
 #rastreo{
     position: relative;
     bottom: 435px;
     left: 240px;
     border-radius: 10px;
-    border: solid 2px #146b88;
-    color: white;
-    padding-top: 15px;    font-size: 16px;
-    cursor: pointer;
+    border: solid 2px var(--dark-blue);
+    color: var(--white);
+    padding: 15px;    
+    font-size: 16px;
     width: 455px;
-    height: 30px;
+    height: 45px;
     font-style: oblique;
     font-weight: bold;
 }
-
 #rastrear{
     position: relative;
-    bottom: 455px;
+    bottom: 448px;
     left: 125px;
-    background-color: #146b88; 
+    background-color: var(--dark-blue); 
     border-radius: 15px;
     border: none;
-    color: white;
+    color: var(--white);
     font-weight: bold;
-    padding: 10px;
+    padding-top: 5px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    height: 30px;
 }
 
 #aduanas{
     width: 520px;
     height: 115px;
-    border: solid #146b88 2px;
+    border: solid var(--dark-blue) 2px;
     border-radius: 20px;
     position: relative;
-    bottom: 750px;
+    bottom: 1050px;
     left: 850px;
     text-align: center;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
+    color: var(--dark-blue);
 }
-
 #registrar{
-    background-color: rgb(109, 183, 69); 
+    background-color: var(--green); 
     border-radius: 15px;
     border: none;
-    color: white;
+    color: var(--white);
     font-weight: bold;
     text-align: center;
     font-size: 15px;
@@ -290,31 +343,326 @@ h3{
     cursor: pointer;
 }
 
+
 #enlaces{
     position: relative;
-    top: 300px;
+    top: 50px;
     left: 350px;
 }
 
+
 #imagen{
     position: relative;
-    bottom: 350px;
-    left: 160px;
+    bottom: 1000px;
 }
+
 
 #promo{
     position: relative;
-    bottom: 360px;
-    font-size: 50px;
-    background-color: #146b88;
-    width: 1120px;
+    bottom: 995px;
+    font-size: 40px;
+    background-color: var(--dark-blue);
+    padding: 30px;
     left: 0px;
+}
+
+
+#banner{
+    position: relative;
+    bottom: 960px;
+}
+
+
+h2{
+    position: relative;
+    bottom: 680px;
+    text-align: center;
+    font-weight: bolder;
+    color: var(--dark-blue);
+    font-size: 35px;
+}
+h4{
+    color: var(--dark-blue);
+}
+
+#servicios{
+    position: relative;
+    bottom: 330px;
+}
+.priority{
+    width: 350px;
+    height: 182px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--dark-blue);
+    margin-left: 150px;
+    position: relative;
+    bottom: 652px;
+}
+.envios{
+    width: 350px;
+    height: 182px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--dark-blue);
+    margin-left: 850px;
+    position: relative;
+    bottom: 835px;
+    right: 290px;
+}
+.aereo{
+    width: 350px;
+    height: 182px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--dark-blue);
+    margin-left: 150px;
+    position: relative;
+    bottom: 1017px;
+    left: 820px;
+}
+.maritimo{
+    width: 350px;
+    height: 182px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--dark-blue);
+    margin-left: 850px;
+    position: relative;
+    bottom: 950px;
+    right: 697px;
+}
+.nacional{
+    width: 350px;
+    height: 182px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--dark-blue);
+    margin-left: 150px;
+    position: relative;
+    bottom: 1132px;
+    left: 410px;
+}
+.shopping{
+     width: 350px;
+    height: 182px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--dark-blue);
+    margin-left: 850px;
+    position: relative;
+    bottom: 1315px;
+    left: 122px;
+}
+.economy{
+    width: 350px;
+    height: 210px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--dark-blue);
+    margin-left: 500px;
+    position: relative;
+    bottom: 1255px;
+    left: 65px;
+}
+
+
+.card-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+.texto h4{
+    margin-top: 15px;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+.texto p{
+    margin: 0;
+    color: var(--dark-blue);
+}
+
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7{
+    background: #c211a2;
+    color: var(--white);
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    font-size: var(--wp--preset--font-size--small);
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#b1, #b2{
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+#b3{
+    position: relative;
+    top: 55px;
+}
+#b4{
+    position: relative;
+    top: 40px;
+    left: 120px;
+}
+#b5{
+    position: relative;
+    bottom: 10px;
+    left: 120px;
+}
+#b6{
+    position: relative;
+    top:15px;
+    left: 120px;
+}
+#b7{
+    position: relative;
+    bottom: 5px;
+    left: 125px;
+}
+
+.priority, .envios, .aereo, .maritimo, .nacional, .shopping, .economy{
+    border: 2px solid var(--dark-blue);
+    border-radius: 20px;
+    color: var(--dark-blue);
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+#elegir{
+    position: relative;
+    bottom: 400px;
+}
+#y{
+    position: relative;
+    top: 80px;
+    right: 370px;
+    font-size: var(--wp--preset--font-size--x-large);
+}
+#bg{
+    padding-left: 35px;
+    background-color: rgba(136, 171, 183, 0.275);
+    position: relative;
+    bottom: 1150px;
+    height: 500px;
+}
+p{
+    margin: 0 0 10px;
+    color: var(--dark-blue);
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+}
+#bg p::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #2fbfbc;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+.col1{
+    position: relative;
+    top: 100px;
+    width: 400px;
+}
+.col2{
+    position: relative;
+    left: 500px;
+    bottom: 290px;
+    width: 400px;
+}
+#cajita{
+    position: relative;
+    bottom: 550px;
+    left: 950px;
+    width: 400px;
+}
+
+
+#fondo{
+    background: linear-gradient(to left, #00577d, #00577d, transparent);
+    position: relative;
+    bottom: 1720px;
+    height: 495px;
+}
+#computadora{
+    position: relative;
+    bottom: 1150px;
+}
+
+
+#clientes{
+    position: relative;
+    bottom: 350px;
+    left: 0;
+}
+
+h5{
+    color: var(--white);
+    font-size: var(--wp--preset--font-size--x-large);
+    position: relative;
+    left: 100px;
+    top: 200px;
+    width: 550px;
+    height: 550px;
+}
+#exp{
+    background: var(--yellow);
+    color: var(--white);
+    border: none;
+    border-radius: 25px;
+    width: 250px;
+    font-size: var(--wp--preset--font-size--small);
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    bottom: 300px;
+    margin-left: 100px;
+}
+#img{
+    position: relative;
+    bottom: 2190px;
+    left: 700px;
+    width: 700px;
+}
+.azulito::after{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #2fbfbc;
+    position: absolute;
 }
 
 #foto{
     position: relative;
     bottom: 90px;
     }
+
 
 @media (min-width: 600px){
     #promo h1{
