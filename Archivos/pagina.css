@@ -654,7 +654,7 @@ h5{
     text-align: center;
     margin-top: 10px;
     cursor: pointer;
-    background-color: #2fbfbc;
+    background-color: #2fbfbd;
     position: absolute;
 }
 
@@ -662,6 +662,27 @@ h5{
     position: relative;
     bottom: 90px;
     }
+
+    footer{
+  background:#003b57;
+  color:white;
+  padding:60px 40px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:40px;
+}
+
+footer ul{
+  list-style:none;
+}
+
+footer li{
+  margin:8px 0;
+}
+
+footer p{
+  margin-top:20px;
+}
 
 
 @media (min-width: 600px){
