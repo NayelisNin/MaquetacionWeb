@@ -6,16 +6,26 @@
 }
       
       .container {
-            padding: 100px 10%;
-            background-color: var(--white);
-            margin-top: 150px;
+            padding: 20px 10% 100px 10%;
+            background-image: url(https://www.eps.com.do/wp-content/themes/eps/images/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            margin-top: 88px;
         }
+
+        section{
+            margin-top: 0;
+            padding-top: 0;
+        }
+
         .item {
             border-bottom: 1px solid #ddd;
             padding: 20px 0;
         }
         .item h2 {
-            color: #00577d;
+            color: var(--dark-blue);
             font-size: 20px;
             cursor: pointer;
         }
@@ -29,3 +39,62 @@
             border-radius: 25px;
             font-weight: bold;
         }
+
+        h1{
+            color: var(--dark-blue);
+            margin-top: 0px;
+            padding-top: 20px;
+        }
+
+        footer {
+    background: var(--blue);
+    color: var(--white);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+    footer hr {
+    width: 100px;
+    height: 1px;
+    background-color: var(--white);
+    border: none;
+    margin: 20px auto;
+    display: block;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.links a:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+        @media (max-width: 600px) {
+    .container {
+        padding: 20px 5%;
+        margin-top: 100px;
+    }
+    .item h2 {
+        font-size: 18px;
+    }
+}

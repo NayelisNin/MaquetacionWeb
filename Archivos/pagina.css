@@ -109,6 +109,8 @@ button {
 
 #eps{
     width: 700px;
+    margin-left: 0;
+
 }
 
 #sucursales{
@@ -156,13 +158,10 @@ button {
 #tiendas img{
     cursor: pointer;
 }
+
 #tiendas img:hover{
     transform:scale(1.1);
     transition: 0.3s;
-}
-
-#eps {
-    margin-left: 0;
 }
 
 .layout {
@@ -170,9 +169,9 @@ button {
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
-    width: 1400px;
-    margin-top: 50px;
+    width: 100%;
     max-width: 1400px;
+    margin: 50px auto 0 auto; 
     padding: 0 5%;
 }
 
@@ -232,19 +231,42 @@ footer {
     color: var(--white);
     padding: 40px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    font-size: large;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
 }
 
     footer hr {
-    width: 1px;
-    height: 100px;
+    width: 100px;
+    height: 1px;
     background-color: var(--white);
     border: none;
-    margin: 0 20px;
+    margin: 20px auto;
     display: block;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.links a:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 #subir {
@@ -269,7 +291,7 @@ footer {
 @media (max-width: 768px) {
     #nav {
         flex-direction: column;
-        height: auto;
+        text-align: center;
     }
     
     #header {
@@ -286,17 +308,29 @@ footer {
         font-size: 28px;
     }
 
+       footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
     @media (max-width: 1024px) {
     .layout {
         flex-direction: column;
         padding: 20px;
+        width: 100%;
     }
     
     .texto, .col-direccion, .cajas {
         width: 100%;
-        padding: 0;
-        margin-bottom: 30px;
+        max-width: 100%;
+        margin-bottom: 20px;
     }
+
+    .card-direccion{
+        width: 100%;
+    }
+    
 
     .cajas {
         justify-content: center;
@@ -305,11 +339,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    footer {
-        flex-direction: column;
-        text-align: center;
-        padding: 30px 20px;
-    }
 
     footer hr {
         width: 300px;
@@ -327,5 +356,4 @@ footer {
         margin-right: auto;
         display: block;
     }
-}
 }
