@@ -1,0 +1,31 @@
+      :root {
+    --dark-blue: #00577d;
+    --blue: #008aad;
+    --yellow: #ffa409;
+    --white: #ffffff;
+}
+      
+      .container {
+            padding: 100px 10%;
+            background-color: var(--white);
+            margin-top: 150px;
+        }
+        .item {
+            border-bottom: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .item h2 {
+            color: #00577d;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .regresar {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: var(--yellow); 
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
