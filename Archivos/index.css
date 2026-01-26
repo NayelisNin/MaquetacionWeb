@@ -171,8 +171,8 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;
-    width: 1500px;
+    gap: 20px;
+    width: 1400px;
     max-width: 1400px;
     margin: 50px auto 0 auto; 
     padding: 0 5%;
@@ -190,7 +190,6 @@ button {
 
 .texto p{
     flex: 1.5;
-    padding-left: 20px;
     margin: 0;
 }
 
@@ -339,7 +338,7 @@ footer {
 
     .cajas {
         justify-content: center;
-        order: -1;
+        order: 1;
     }
 }
 
