@@ -10,7 +10,7 @@
             background-image: url(https://www.eps.com.do/wp-content/themes/eps/images/bg.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed;
+            position: fixed;
 
             margin-top: 88px;
         }
